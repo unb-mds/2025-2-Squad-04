@@ -101,3 +101,33 @@ __Padrões em ES__
 - Eles permitem que desenvolvedores possam recorrer a soluções já existentes, para solucionar problemas que normalmente ocorrem em desenvolvimento de software.
 
 - __Padrões Arquiteturais__: expressam um esquema de organização estrutural fundamental para sistemas de software.(BUSCHMANN et al., 1996)
+
+## Estilos de arquitetura 
+
+- Uma arquitetura de software pode adotar um estilo de arquitetura, que estabelece um conjunto de padrões e restrições, reduzindo as opções de implementação e promovendo uniformidade na solução. Esse estilo é definido pela escolha de componentes e conectores que servirão como base estrutural do sistema. Em essência, os estilos de arquitetura representam esquemas de organização que determinam os principais componentes, suas responsabilidades e a forma de interação entre eles. Cada estilo atende a diferentes atributos de qualidade, e a escolha adequada depende da análise de quais atributos são mais relevantes para a solução desejada.
+
+- A arquitetura de um sistema pode aderir a um ou mais estilos arquiteturais
+
+- Um estilo define os tipos de elementos que podem aparecer em uma arquitetura e as regras que regem a interconexão entre estes elementos.
+
+- Esses estilos podem simplificar o problema de definição de arquiteturas de sistema.
+
+__Exemplo de estilos arquiteturais__
+
+- Cliente servidor 
+
+- Camadas 
+
+- Filtros e dutos(pipes and filter)
+
+- Repositório 
+
+- Orientado a eventos (publisher/subscriber)
+
+- Objetos distribuídos ~
+
+## Arquiteturas de referência 
+
+- A arquitetura de referência consiste em componentes de software e seus relacionamentos, implementando funcionalidades definidas no modelo de referência. Cada parte do modelo pode ser mapeada para um ou mais componentes, de forma que nem sempre há correspondência um-para-um. Essas arquiteturas são específicas de um domínio, derivadas de estudos de aplicação ao invés de sistemas existentes, e podem servir como base para implementar sistemas ou comparar soluções diferentes, funcionando como padrões de avaliação. Exemplos clássicos incluem o modelo OSI para sistemas de comunicação e a organização tradicional de compiladores em vanguarda e retaguarda.
+
+[Link para o artigo](https://www.inf.ufpr.br/andrey/ci163/IntroduzArquiteturaAl.pdf)
