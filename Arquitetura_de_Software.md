@@ -9,6 +9,7 @@ Ela define o que é o sistema em termos de componentes computacionais e, os rela
 A arquitetura é de suma importância para o software, pois sem ela você pode deixar o codigo desorganizado e sem saber o caminho para desenvolver seu software, fazendo com que atrase o fim do seu projeto.
 
 [Link para o artigo](https://martinfowler.com/architecture)
+
 [Link para o artigo](https://www.inf.ufpr.br/andrey/ci163/IntroduzArquiteturaAl.pdf)
 
 ## O processo de arquitetura de software
@@ -24,4 +25,6 @@ A arquitetura é de suma importância para o software, pois sem ela você pode d
 - Implementação da arquitetura, seguindo seus protocolos e estruturas.
 
 - Análise e avaliação: verificar a adequação da arquitetura, regustrando impactos, risco e dificuldades, o que servirá para evolução da arquitetura 
+
+[Link para o artigo](https://www.inf.ufpr.br/andrey/ci163/IntroduzArquiteturaAl.pdf)
 
