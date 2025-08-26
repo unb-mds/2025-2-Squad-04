@@ -30,9 +30,9 @@ A arquitetura é de suma importância para o software, pois sem ela você pode d
 
 ## Importância da Arquitetura 
 
-- Ela atua como uma estrutura a fim de cehcar o atendimento aos requisitos do sistema
+- Ela atua como uma estrutura a fim de checar o atendimento aos requisitos do sistema
 
-- Suporte no controle de gatos e gerência da complexidade do sistema
+- Suporte no controle de gastos e gerência da complexidade do sistema
 
 - Reduz o intervalo entre especificação e implementação 
 
@@ -41,3 +41,41 @@ A arquitetura é de suma importância para o software, pois sem ela você pode d
 - Serve como base para criar um entendimento mútuo entre os participantes 
 
 - Guia para o projetp de sua implementação, teste e implatação do sistema 
+
+## Definição da Arquitetura 
+
+__Engenharia de requisitos como subsídio à arquitetura__
+
+A fase da engenharia de requisitos fornece a base necessária para a definição da arquitetura do sistema. dessa etapa são obtidos:
+
+- O processo do negócio modelado;
+
+- O planejamento estratégico das versões;
+
+- Os requisitos de cada versão;
+
+Essas informações permintem ao arquiteto compreender o dominío da aplicação e alinha as decisões arquiteturais às necessidades do projeto.
+
+__Importância da definiçãi da arquitetura__
+
+A definição da arquitetura deve atender a critéros que garantem a evolução e a longevidade do sistema, tais como:
+
+- Facilitar o reúso em diferentes níveis;
+
+- Permitir alterações localizadas, sem afetar outras partes do sistema;
+
+- Viabilizar a adição de novas funcionalidades semimpacto nas funcionalidades já existentes;
+
+- Apoiar a evolução contínua dp sistema, prolongando sua vida útil.
+
+__Estratégia na definição da arquitetura__
+
+A definição da arquitetura está baseada na seleção das alternativas mais adequadas ao domínio da aplicação. Para isso, é fundamental:
+
+- Reutilizar soluções e estratégias previamente validadas;
+
+- Adotar frameworks, estilos arquiteturais, padrões de projeto e linguagens de descrição de componentes;
+
+- Basear-se em boas práticas consolidadas, garantindo consistência e qualidade no desenvolvimento.
+
+[Link para o artigo](https://www.inf.ufpr.br/andrey/ci163/IntroduzArquiteturaAl.pdf)
