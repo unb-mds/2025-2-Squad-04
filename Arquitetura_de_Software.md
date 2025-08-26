@@ -28,3 +28,16 @@ A arquitetura é de suma importância para o software, pois sem ela você pode d
 
 [Link para o artigo](https://www.inf.ufpr.br/andrey/ci163/IntroduzArquiteturaAl.pdf)
 
+## Importância da Arquitetura 
+
+- Ela atua como uma estrutura a fim de cehcar o atendimento aos requisitos do sistema
+
+- Suporte no controle de gatos e gerência da complexidade do sistema
+
+- Reduz o intervalo entre especificação e implementação 
+
+- Reduz riscos associados à construção do software
+
+- Serve como base para criar um entendimento mútuo entre os participantes 
+
+- Guia para o projetp de sua implementação, teste e implatação do sistema 
