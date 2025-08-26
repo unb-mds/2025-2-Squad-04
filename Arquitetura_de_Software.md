@@ -56,7 +56,7 @@ A fase da engenharia de requisitos fornece a base necessária para a definição
 
 Essas informações permintem ao arquiteto compreender o dominío da aplicação e alinha as decisões arquiteturais às necessidades do projeto.
 
-__Importância da definiçãi da arquitetura__
+__Importância da definição da arquitetura__
 
 A definição da arquitetura deve atender a critéros que garantem a evolução e a longevidade do sistema, tais como:
 
@@ -79,3 +79,25 @@ A definição da arquitetura está baseada na seleção das alternativas mais ad
 - Basear-se em boas práticas consolidadas, garantindo consistência e qualidade no desenvolvimento.
 
 [Link para o artigo](https://www.inf.ufpr.br/andrey/ci163/IntroduzArquiteturaAl.pdf)
+
+__Conceito de padrão__
+
+- Um teplate de solução para um problema recorrente que seja comprovadamente útil em um determindao contexto
+
+- Um padrão de software é instanciado através da vinculação de valores e seus parâmetros.
+
+- Os padrões podem existir em várias escalas níveis de abstração; por exemplo, como padrões de arquitetura, padrões de análise, padrões de projeto, padrões de teste e idiomas ou padrões de implementação.
+
+__Definição__:“um padrão expressa uma solução reutilizável descrita através de três partes: um contexto, um problema e uma solução”. (GAMMA et al., 1995). 
+
+- Contexto:  estende o problema a ser solucionado, apresentando situações de ocorrência desses problemas.
+
+- Problema: determinado por um sistema de forças, onde estas forças estabelecem os aspectos do problema que devem ser considerados. 
+
+- Solução: mostra como resolver o problema recorrente e como balancear as forças associadas a ele.
+
+__Padrões em ES__
+
+- Eles permitem que desenvolvedores possam recorrer a soluções já existentes, para solucionar problemas que normalmente ocorrem em desenvolvimento de software.
+
+- __Padrões Arquiteturais__: expressam um esquema de organização estrutural fundamental para sistemas de software.(BUSCHMANN et al., 1996)
