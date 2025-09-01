@@ -124,7 +124,37 @@ __Exemplo de estilos arquiteturais__
 
 - Orientado a eventos (publisher/subscriber)
 
-- Objetos distribuídos ~
+- Objetos distribuídos
+
+## Definição dos estilos de arquiteturas
+
+__Layers (camadas)__
+
+- Na arquitetura Model-View-Controller (MVC), os sistemas são desenvolvidos nessas três camadas. O model estabelece regras de negócio e a interação entre o back-end e o banco de dados (recepção ou envio de dados). O view define e gerencia como os dados são apresentados ao usuário (parte ligada fortemente ao 
+front-end). Por último, o controller é responsável por ser o nível intermediário entre o model e o view, ao receber dados do usuário, e os manipula e reage de acordo com a necessidade do programador.
+
+__SOA (Orientada a serviço)__
+
+- Na arquitetura orientada a serviço, divide-se o sistema em serviços independentes, e depois, criam-se interfaces para que os serviços interajam entre si.Em analogia, estamos preparando um prato de almoço. Onde os serviços são, por exemplo, a região da proteína, a região do carboidrato, e a fibrosa. A interface seria, portanto, a própria louça que abriga essas 3 regiões do seu prato de almoço. 
+
+__Pipers  and  Filters (Filtos e dutos)__
+
+- Nessa, o dado recebido pelo sistema e cada componente independente do sistema (chamado filtro), opera de forma específica dentro do filtro. Se pensar no caso de se passar um café, o dado é o pó de café, e o filtro, ele interage com o pó, de forma a transformar o pó em um café. Mas para que o pó seja transformado em café, é preciso que o nosso líquido seja conduzido por um duto. Podemos aplicá-lo, por exemplo, para criar um agente de IA que identifica e-mails que são SPAM, já que o agente recebe o email, o manipula até que o simplifiquemos a ponto criar parâmetros simples para identificar spam.
+
+__Monolítica__
+
+- Na arquitetura monolítica, criamos apenas um bloco onde os serviços são interdependentes, ou seja, sua manutenção é mais complexa. A interação entre serviços/métodos é feita de forma vertical. Pode haver modulação nesse tipo de sistema, para haver maior facilidade na manutenção do código. Exemplo famoso: 
+Amazon Prime Video e Github.  
+
+__Baseada em mircrosserviços__
+
+-  Considerada uma variante da arquitetura orientada a serviços, a arquitetura baseada em microsserviços é um tipo muito útil para arquitetura em que se busca uma independência maior em termos de serviços, e mais descentralizada do que a arquitetura monolítica.
+
+__Hexagol__
+
+- A arquitetura hexagonal é uma arquitetura conhecida por seu desacoplamento e fácil manutenção, pois há grande descentralização dos serviços. Segundo Pessôa: “As portas são as interfaces que permitem que a lógica de de negócios se comunique com o mundo externo, e os adaptadores são responsáveis por implementar as portas.” Um ponto muito positivo dessa arquitetura é a 
+possibilidade de se incrementar outras arquiteturas devido ao grande desacoplamento. No entanto, a escritora supracitada diz que é preciso que tenhamos um núcleo bem definido para que a implementação dessa estrutura seja eficaz. Camila Pessôa ainda acrescenta que: “Essa arquitetura traz uma perspectiva diferente sobre a ordem das camadas de uma aplicação, em que normalmente temos a primeira camada como a interface e a última como um banco de dados para armazenamento. A ideia é entender front-end e back-end como camadas 
+externas ao seu domínio!”  
 
 ## Arquiteturas de referência 
 
