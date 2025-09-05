@@ -1,17 +1,63 @@
-# mkdocs.yml
 
-# --- Informações do Projeto ---
-site_name: Portal dos Professores
+site_name: Portal dos Professores 
+site_author: Squad 04 - MDS 2025/2
+site_description: Documentação central do projeto Portal dos Professores da UnB.
 
-# --- Configuração do Tema ---
-# Usando o tema Material que instalamos
+
+nav:
+  - 'Início': 'index.md'
+  - 'Requisitos': 'requisitos.md'
+  - 'Arquitetura': 'arquitetura.md'
+  - 'Guias de Uso': 'guias-de-uso.md'
+  - 'Desenvolvimento': 'desenvolvimento.md'
+
+
 theme:
   name: material
   language: pt
+  logo: assets/logo.png 
+  favicon: assets/favicon.png
 
-# --- Estrutura da Navegação ---
-# Agora, liste os arquivos que você já tem na sua pasta 'docs'
-nav:
-  - 'Página Inicial': 'index.md'
-  - 'Requisitos': 'requisitos.md'
-  # - Adicione outras páginas aqui...
+  features:
+    - navigation.tabs           
+    - navigation.toc.integrate  
+    - navigation.instant       
+    - navigation.top           
+    - search.suggest           
+    - search.highlight         
+    - content.code.copy        
+
+  palette:
+  
+    - scheme: default
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+
+copyright: Copyright &copy; 2025 Squad 04 - Todos os Direitos Reservados
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/unb-mds/2025-2-Portal-Dos-Professores
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

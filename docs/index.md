@@ -1,4 +1,4 @@
-# Bem-vindo à Documentação do Squad 04 (2025-2)
+# 👨‍🎓 Portal dos Professores
 
 Este é o espaço central para toda a documentação, guias e informações relacionadas ao projeto desenvolvido pelo Squad 04 durante o semestre de 2025-2 na disciplina de Métodos de Desenvolvimento de Software.
 
