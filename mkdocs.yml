@@ -1,8 +1,7 @@
 # mkdocs.yml
 
 # --- Informações do Projeto ---
-site_name: Nome da Sua Documentação
-site_author: Nome do Time
+site_name: Portal dos Professores
 
 # --- Configuração do Tema ---
 # Usando o tema Material que instalamos

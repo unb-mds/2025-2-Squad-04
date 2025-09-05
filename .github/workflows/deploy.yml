@@ -1,9 +1,12 @@
 # .github/workflows/deploy.yml
 
-name: Publicar no GitHub Pages
+name: Validar e Publicar Documentação
 
 on:
   push:
+    branches:
+      - main
+  pull_request:
     branches:
       - main
 
@@ -11,9 +14,10 @@ permissions:
   contents: write
 
 jobs:
-  deploy:
+
+  validate-docs:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout do código
         uses: actions/checkout@v4
@@ -25,6 +29,24 @@ jobs:
       
       - name: Instalar dependências
         run: pip install -r requirements.txt
+        
+      - name: Construir site para validação
+        run: mkdocs build --strict
 
+  deploy:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+        
       - name: Deploy do site
         run: mkdocs gh-deploy --force --clean
