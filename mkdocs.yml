@@ -1,0 +1,18 @@
+# mkdocs.yml
+
+# --- Informações do Projeto ---
+site_name: Nome da Sua Documentação
+site_author: Nome do Time
+
+# --- Configuração do Tema ---
+# Usando o tema Material que instalamos
+theme:
+  name: material
+  language: pt
+
+# --- Estrutura da Navegação ---
+# Agora, liste os arquivos que você já tem na sua pasta 'docs'
+nav:
+  - 'Página Inicial': 'index.md'
+  - 'Requisitos': 'requisitos.md'
+  # - Adicione outras páginas aqui...
